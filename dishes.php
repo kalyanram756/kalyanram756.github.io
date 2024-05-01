@@ -256,54 +256,6 @@ $item_total += ($item["price"]*$item["quantity"]); // calculating current price 
                        
                     </div>
                     <!-- end:Bar -->
-                    <div class="col-xs-12 col-md-12 col-lg-3">
-                        <div class="sidebar-wrap">
-                           <div class="widget clearfix">
-                            <!-- /widget heading -->
-                            <div class="widget-heading">
-                                <h3 class="widget-title text-dark">
-                              Popular tags
-                           </h3>
-                                <div class="clearfix"></div>
-                            </div>
-                            <div class="widget-body">
-                                <ul class="tags">
-                                    <li> <a href="#" class="tag">
-                                 Coupons
-                                 </a> </li>
-                                    <li> <a href="#" class="tag">
-                                 Discounts
-                                 </a> </li>
-                                    <li> <a href="#" class="tag">
-                                 Deals
-                                 </a> </li>
-                                    <li> <a href="#" class="tag">
-                                 Amazon 
-                                 </a> </li>
-                                    <li> <a href="#" class="tag">
-                                 Ebay
-                                 </a> </li>
-                                    <li> <a href="#" class="tag">
-                                 Fashion
-                                 </a> </li>
-                                    <li> <a href="#" class="tag">
-                                 Shoes
-                                 </a> </li>
-                                    <li> <a href="#" class="tag">
-                                 Kids
-                                 </a> </li>
-                                    <li> <a href="#" class="tag">
-                                 Travel
-                                 </a> </li>
-                                    <li> <a href="#" class="tag">
-                                 Hosting
-                                 </a> </li>
-                                </ul>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-                    <!-- end:Right Sidebar -->
                 </div>
                 <!-- end:row -->
             </div>

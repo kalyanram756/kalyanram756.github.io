@@ -86,43 +86,6 @@ session_start();
             <!-- //results show -->
             <section class="restaurants-page">
                 <div class="container">
-                    <div class="row">
-                        <div class="col-xs-12 col-sm-5 col-md-5 col-lg-3">
-                          
-                          
-                            <div class="widget clearfix">
-                                <!-- /widget heading -->
-                                <div class="widget-heading">
-                                    <h3 class="widget-title text-dark">
-                                 Popular tags
-                              </h3>
-                                    <div class="clearfix"></div>
-                                </div>
-                                <div class="widget-body">
-                                    <ul class="tags">
-                                        <li> <a href="#" class="tag">
-                                    Pizza
-                                    </a> </li>
-                                        <li> <a href="#" class="tag">
-                                    Sendwich
-                                    </a> </li>
-                                        <li> <a href="#" class="tag">
-                                    Sendwich
-                                    </a> </li>
-                                        <li> <a href="#" class="tag">
-                                    Fish 
-                                    </a> </li>
-                                        <li> <a href="#" class="tag">
-                                    Desert
-                                    </a> </li>
-                                        <li> <a href="#" class="tag">
-                                    Salad
-                                    </a> </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <!-- end:Widget -->
-                        </div>
                         <div class="col-xs-12 col-sm-7 col-md-7 col-lg-9">
                             <div class="bg-gray restaurant-entry">
                                 <div class="row">
@@ -149,7 +112,7 @@ session_start();
 														 <div class="col-sm-12 col-md-12 col-lg-4 text-xs-center">
 																<div class="right-content bg-white">
 																	<div class="right-review">
-																		<div class="rating-block"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> </div>
+					
 																		<p> 245 Reviews</p> <a href="dishes.php?res_id='.$rows['rs_id'].'" class="btn theme-btn-dash">View Menu</a> </div>
 																</div>
 																<!-- end:right info -->

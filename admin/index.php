@@ -6,9 +6,9 @@ error_reporting(0);
 session_start();
 if(isset($_POST['submit']))
 {
+	
 	$username = $_POST['username'];
 	$password = $_POST['password'];
-	
 	if(!empty($_POST["submit"])) 
      {
 	$loginquery ="SELECT * FROM admin WHERE username='$username' && password='".md5($password)."'";
@@ -123,11 +123,9 @@ if(isset($_POST['submit1'] ))
     <input type="text" placeholder="email address"  name="cr_email"/>
 	 <input type="password" placeholder="password"  name="cr_pass"/>
 	  <input type="password" placeholder="Confirm password"  name="cr_cpass"/>
-	  <input type="password" placeholder="Unique-Code"  name="code"/>
    <input type="submit"  name="submit1" value="Create" />
     <p class="message">Already registered? <a href="#">Sign In</a></p>
   </form>
-  <span>username:admin</span>&nbsp;<span>password:1234</span>
   <span style="color:red;"><?php echo $message; ?></span>
    <span style="color:green;"><?php echo $success; ?></span>
   <form class="login-form" action="index.php" method="post">

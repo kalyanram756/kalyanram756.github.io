@@ -91,11 +91,7 @@ if(isset($_POST['submit'] ))
     <!-- Main wrapper  -->
     <div id="main-wrapper">
         <!-- header header  -->
-         <div class="header">
-            <nav class="navbar top-navbar navbar-expand-md navbar-light">
-                        <span><img src="images/logo-text.png" alt="homepage" class="dark-logo" /></span>
-                    </a>
-                </div>
+         
                 <!-- End Logo -->
                 <div class="navbar-collapse">
                     <!-- toggle and nav items -->

@@ -321,19 +321,7 @@ if(isset($_POST['submit'] ))
                                 </form>
                             </div>
                         </div>
-                    </div>
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
+</div>	
                 </div>
                 <!-- End PAge Content -->
             </div>
