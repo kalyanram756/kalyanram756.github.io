@@ -1,5 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+<?php
+include("connection/connect.php");  //include connection file
+error_reporting(0);  // using to hide undefine undex errors
+session_start(); //start temp session until logout/browser closed
+
+?>
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -32,7 +38,7 @@
                             <li class="nav-item"> <a class="nav-link active" href="restaurants.php">Restaurants <span class="sr-only"></span></a> </li>
                             
                            
-							<!-- <?php
+							<?php
 						if(empty($_SESSION["user_id"])) // if user is not login
 							{
 								echo '<li class="nav-item"><a href="login.php" class="nav-link active">login</a> </li>
@@ -46,7 +52,7 @@
 									echo  '<li class="nav-item"><a href="logout.php" class="nav-link active">logout</a> </li>';
 							}
 
-						?> -->
+						?>
 							 
                         </ul>
 						 
@@ -59,7 +65,7 @@
         <section class="hero bg-image" data-image-src="images/img/main.jpeg">
             <div class="hero-inner">
                 <div class="container text-center hero-text font-white">
-                    <h1>Order Delivery and Take-Out </h1>
+                    <h1>Order Delivery & Take-Out </h1>
                     <h5 class="font-white space-xs">Find restaurants, specials, and coupons for free</h5>
                     <div class="banner-form">
                         <form class="form-inline">
